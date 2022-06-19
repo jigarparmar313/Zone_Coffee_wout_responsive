@@ -1,0 +1,618 @@
+body {
+    background-color: red;
+}
+
+
+
+/* margin top */
+
+.mt_35 {
+    margin-top: 35px;
+}
+
+.mt_190 {
+    margin-top: 190px;
+}
+
+.mt_130 {
+    margin-top: 130px;
+}
+
+.mt_70 {
+    margin-top: 70px;
+}
+
+.mt_15 {
+    margin-top: 15px;
+}
+
+.mt_450 {
+    margin-top: 450px;
+}
+
+.mt_100 {
+    margin-top: 100px;
+}
+
+.mt_150 {
+    margin-top: 150px;
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+.mt_200 {
+    margin-top: 200px;
+}
+
+.mt_80 {
+    margin-top: 80px;
+}
+
+.mt_180 {
+    margin-top: 180px;
+}
+
+.mt_47 {
+    margin-top: 47px;
+}
+
+.mt_35 {
+    margin-top: 35px;
+}
+
+/* margin left */
+
+.ml_15 {
+    margin-left: 15px;
+}
+
+/* margin right */
+
+.mr_270 {
+    margin-right: 270px;
+}
+
+.mr_15 {
+    margin-right: 15px;
+}
+
+/* margin bottom  */
+
+.mb_15 {
+    margin-bottom: 15px;
+}
+
+.mb_110 {
+    margin-bottom: 110px;
+}
+
+/* section 1  */
+
+
+/* bg_1 */
+.bg_1 {
+    background-image: url("IMG/bg1coffee.png");
+    background-color: #1f1d47;
+    /* min-height: 950px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bg_white {
+    /* background-color: #fcfefc; */
+}
+
+/* font face */
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("fonts/Poppins/Poppins-Bold.ttf");
+}
+
+.left_side {
+    width: 70%;
+}
+
+.nav_bar {
+    float: left;
+}
+
+.nav_bar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav_bar ul li {
+    float: left;
+    list-style: none;
+    /* display: inline; */
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    padding: 32px;
+    text-transform: uppercase;
+    font-family: Poppins-Bold;
+    /* display: block; */
+    color: #ffff;
+}
+
+.nav_bar ul li a:hover {
+    background-color: #db341e;
+    color: #fcfefc;
+}
+
+
+/* content_1 */
+.content_1 h1 {
+    font-family: Poppins-Bold;
+    text-transform: uppercase;
+    font-size: 78pt;
+    color: #ffff;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("fonts/Poppins/Poppins-Regular.ttf");
+}
+
+.para_1 p {
+    color: #ffff;
+    font-style: Poppins-Regular;
+}
+
+/* btn_1 */
+
+.button {
+    background-color: #db341e;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    padding: 17px 54px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-style: Poppins-Regular;
+
+}
+
+.button:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.contact_details_navbar {
+    float: right;
+}
+
+.contact_details_navbar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact_details_navbar ul li {
+    float: left;
+    list-style: none;
+}
+
+/* .contact_details_navbar ul li a {
+    text-decoration: none;
+    padding: 30px  22px;
+} */
+.contact_details_navbar ul li a {
+    text-decoration: none;
+    /* padding: 34px 20px; */
+    padding: 34px 15px;
+    color: #ffff;
+}
+
+/* bg_2 */
+.bg_2 {
+    background-color: #dc3822;
+    min-height: 950px;
+    width: 100%;
+}
+
+/* .coffee_cup img{
+    width: 100%;
+    float: right;
+    margin-right: 15pc;
+} */
+
+/* .coffee_cup img {
+    width: 100%;
+    float: right;  // original 
+    margin: auto;
+    height: auto;
+} */
+
+.coffee_cup img {
+    width: 37%;
+    /* float: right; */
+    /* margin: auto; */
+    /* height: auto; */
+    position: absolute;
+    right: 16%;
+    top: 108px;
+    z-index: 999;
+}
+
+/* section 1 ends */
+
+
+/* section 2 start  */
+
+.bg_3 {
+    background-image: url("IMG/bg2_with_intruments.png");
+    background-color: #1f1d47;
+    min-height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* bg_3 */
+
+.upcoffee_cup2 img {
+    width: 658px;
+
+}
+
+.about_zon_coffee h1 {
+    font-family: Poppins-Bold;
+    text-transform: uppercase;
+    color: #ffff;
+    font-size: 40px
+}
+
+.para_2 p {
+    color: #ffff;
+    font-size: 13px;
+}
+
+/* section 2 ends */
+
+/* section 3 starts */
+
+.row.r_ml_mr {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bg_4 {
+    /* background-image: url("IMG/bg2_with_intruments.png"); */
+    background-color: #1f1d47;
+    min-height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.coffee_service h1 {
+    font-family: Poppins-Bold;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+}
+
+.para_3 {
+    color: #ffff;
+    text-align: center;
+    font-family: Poppins-Regular;
+}
+
+
+
+
+
+.coffee_services_1 img {
+    width: 100%;
+}
+
+.coffee_services_2 img {
+    width: 100%;
+}
+
+.coffee_services_3 img {
+    width: 100%;
+}
+
+.red_coffee h1,
+.black_coffee h1,
+.choclate_coffee h1 {
+    font-family: Poppins-Bold;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+.red_coffee p,
+.black_coffee p,
+.choclate_coffee p {
+    font-family: Poppins-Regular;
+    text-align: center;
+    color: #ffff;
+    font-size: 12pt;
+    /* font-size: 15; */
+}
+
+/* .black_coffee h1 {
+    font-family: Poppins-Bold;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+.black_coffee p {
+    font-family: Poppins-Regular;
+    text-align: center;
+    color: #ffff;
+    font-size: 12pt; */
+/* font-size: 15; */
+/* } */
+
+
+.btn_3 {
+    text-align: center;
+}
+
+
+
+
+/* section 3 ends */
+
+/* section 4 starts  */
+
+.bg_5 {
+    /* background-image: url("IMG/bg1coffee.png"); */
+    background-color: #1f1d47;
+    min-height: 950px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.get_in_touch h1 {
+    text-transform: uppercase;
+    font-family: Poppins-Bold;
+    color: #ffff;
+}
+
+.input[type="text"] {
+    padding: 10px 399px;
+    width: 100%;
+    padding: 24px;
+    margin: 8px 15px;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+}
+
+.your_info .name {
+    padding: 20px;
+    margin: 8px -10px;
+    width: 100%;
+    /* display: inline-block; */
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+    /* float: left; */
+}
+
+.your_info {
+    border-right: 1px solid whitesmoke;
+}
+
+.btn_4 {
+    text-align: center;
+}
+
+.btn_4 .button4 {
+    border-radius: 150px;
+}
+
+.border_left_side {
+    border-right: 5px solid whitesmoke;
+}
+
+
+.testimonial h1 {
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.para_4 {
+    color: black;
+    background-color: whitesmoke;
+    padding: 100px 27.5px;
+    line-height: 27px;
+    min-height: 417px;
+    text-align: left;
+    font-family: Poppins-Regular;
+    font-weight: bold;
+}
+
+.square_on_square img {
+    margin: -63px 27px;
+    /* background-image: url(IMG/bg3_with_orangecolor.png); */
+}
+
+.customer_img img {
+    margin: -67px 40px;
+}
+
+.customer_info h1 {
+    font-family: Poppins-Bold;
+    font-size: 18pt;
+    font-style: italic;
+}
+
+.customer_info h5 {
+    font-family: Poppins-Bold;
+    font-size: 14pt;
+    color: #db3620
+}
+
+.customer_info h5 {
+    font-family: Poppins-Bold;
+    font-size: 14pt;
+    color: #db3620;
+    margin-top: -12px;
+}
+
+/* .downward_coffee_beans img{
+   margin-left: -95px;
+}    */
+
+/* .downward_coffee_beans img {
+    margin-left: 134px;
+}*/
+
+.downward_coffee_beans img {
+    margin-left: -65px;
+}
+
+/* section 4 ends  */
+
+
+
+/* section 5 ends  */
+
+.half_coffee-cup img {
+    /* width: 100%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_again img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 117px;
+    height: 71px;
+}
+
+.logo_again_2 h1 {
+    font-family: Poppins-Bold;
+    font-size: 35pt;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+
+}
+
+.logo_again_2 h3 {
+    font-family: Poppins-Bold;
+    font-size: 20pt;
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    margin: -20px 0px;
+}
+
+.email_subscribe h1 {
+    color: #4f4d6e;
+    font-size: 28px;
+    border-bottom: 1.5px solid #ffff;
+    font-family: Poppins-Regular;
+}
+
+.menu_last h1 {
+    color: #ffff;
+    text-align: left;
+    font-family: 'Poppins-Bold';
+    font-size: 30pt;
+}
+
+.menu_last ul {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.menu_last ul li {
+    /* float: left; */
+    list-style: none;
+    /* display: inline; */
+}
+
+.menu_last ul li a {
+    text-decoration: none;
+    /* padding: 32px; */
+    /* text-transform: uppercase; */
+    font-family: Poppins-Regular;
+    /* display: block; */
+    color: #ffff;
+    /* text-align: center; */
+}
+
+.menu_list ul {
+    text-align: left;
+}
+
+
+.follow_us_last h1 {
+    color: #ffff;
+    font-family: Poppins-Bold;
+    font-size: 30pt;
+}
+
+.follow_us_last ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.follow_us_list ul li {
+    list-style: none;
+    display: inline;
+}
+
+.follow_us_list ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding-right: 41px;
+}
+
+.follow_us_list ul li a i {
+    font-size: 21pt;
+}
+
+.three_contact_details ul li {
+    list-style: none;
+
+}
+
+.three_contact_details ul li a {
+    text-decoration: none;
+    color: #ffff;
+    padding-right: 41px;
+    text-decoration: none;
+}
+
+.green_leaf img {
+    margin-right: -15px;
+    float: right;
+    margin-bottom: -35px;
+}
+
+.copy_right h1 {
+    font-size: 17pt;
+    font-family: Poppins-Regualar;
+    color: #ffff;
+    text-align: center;
+
+}
+
+
+/* section 5 ends  */
